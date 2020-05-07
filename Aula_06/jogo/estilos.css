@@ -67,10 +67,11 @@
     background-color: aliceblue;
 }
 
-.botoes{
-    width: 50%;
+/* .botoes{
+    width: 100%;
     margin: auto;
-}
+    
+} */
 
 .pontuacao-global{
     position: relative;
