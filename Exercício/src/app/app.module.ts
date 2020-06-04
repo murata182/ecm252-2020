@@ -2,14 +2,16 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
-import { CursosComponent } from './cursos/cursos.component';
 import { ProfessoresComponent } from './professores/professores.component';
+import { CursoCartaoComponent } from './curso-cartao/curso-cartao.component';
+import { CursoCadastroComponent } from './curso-cadastro/curso-cadastro.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    CursosComponent,
-    ProfessoresComponent
+    ProfessoresComponent,
+    CursoCartaoComponent,
+    CursoCadastroComponent
   ],
   imports: [
     BrowserModule
