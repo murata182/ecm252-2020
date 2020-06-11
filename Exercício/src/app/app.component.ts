@@ -81,4 +81,10 @@ export class AppComponent {
     this.cursos = [curso, ...this.cursos];
   }
 
+  alunos = [];
+
+  onAdicionarAluno(aluno) {
+    this.alunos = [aluno, ...this.alunos];
+  }
+
 }

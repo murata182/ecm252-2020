@@ -44,6 +44,14 @@
             <app-curso-cartao [curso]="curso"></app-curso-cartao>
         </div>
     </div>
+    <div class="row justify-content-center">
+        <app-form-aluno (alunoRegistrado)="onAdicionarAluno($event)"></app-form-aluno>
+    </div>
+    <div class="row justify-content-center">
+        <div class="col-3" *ngFor="let aluno of alunos">
+            <app-aluno-cartao [aluno]="aluno"></app-aluno-cartao>
+        </div>
+    </div>
     <app-professores></app-professores>
 </body>
 
